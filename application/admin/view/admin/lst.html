@@ -48,16 +48,32 @@
                                     </thead>
                                     <tbody>
 
+                                      {if condition="count($admin_list) != 0"}
+                                      {volist name="admin_list" id="admin_list"}
                                       <tr>
-                                          <th scope="row">1</th>
-                                          <td>程詠</td>
+                                          <th scope="row">{$admin_list.id}</th>
+                                          <td>{$admin_list.username}</td>
+                                          {if condition="$admin_list['is_delete'] eq 0"}
                                           <td><span class="badge badge-success">正常</span></td>
+                                          {else /}
+                                          <td><span class="badge badge-warning">已刪除</span></td>
+                                          {/if}
+
                                           <td>
-                                            <button class="btn btn-primary btn-sm" type="button"><i class="fa fa-pencil"></i>&nbsp; 編輯</button>
-                                            <button class="btn btn-danger btn-sm" type="button"><i class="fa fa-trash-o"></i>&nbsp; 刪除</button>
-                                            <button class="btn btn-warning btn-sm" type="button"><i class="fa fa-undo"></i>&nbsp; 復原</button>
+                                            <button class="btn btn-primary btn-sm" type="button"><a href="{:url('admin/edit', array('id' => $admin_list['id']))}" style="color:#fff;"><i class="fa fa-pencil"></i>&nbsp; 編輯</a></button>
+                                            {if condition="$admin_list.is_delete == 0"}
+                                            <button class="btn btn-danger btn-sm" type="button"><a href="#" onclick="warning('确实要删除吗', '{:url('admin/del', array('id' => $admin_list['id']))}')" style="color:#fff;"><i class="fa fa-trash-o"></i>&nbsp; 刪除</a></button>
+                                            {else /}
+                                            <button class="btn btn-warning btn-sm" type="button"><a href="#" onclick="warning('确实要復原吗', '{:url('admin/recover', array('id' => $admin_list['id']))}')" style="color:#000;"><i class="fa fa-undo"></i>&nbsp; 復原</a></button>
+                                            {/if}
                                           </td>
                                       </tr>
+                                      {/volist}
+                                      {else /}
+                                      <tr>
+                                        <td colspan="4">暫無數據</td>
+                                      </tr>
+                                      {/if}
 
                                   </tbody>
                               </table>
@@ -89,6 +105,7 @@
     <script src="__PUBLIC__/assets/js/lib/data-table/buttons.print.min.js"></script>
     <script src="__PUBLIC__/assets/js/lib/data-table/buttons.colVis.min.js"></script>
     <script src="__PUBLIC__/assets/js/init/datatables-init.js"></script>
+    <script src="__PUBLIC__/assets/js/beyond.js"></script>
 
 </body>
 </html>

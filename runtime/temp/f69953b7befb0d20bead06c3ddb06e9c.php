@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:75:"C:\phpstudy\WWW\ss_calendar\public/../application/admin\view\admin\add.html";i:1554795688;s:70:"C:\phpstudy\WWW\ss_calendar\application\admin\view\common\sidebar.html";i:1554785670;s:69:"C:\phpstudy\WWW\ss_calendar\application\admin\view\common\header.html";i:1554782360;s:69:"C:\phpstudy\WWW\ss_calendar\application\admin\view\common\footer.html";i:1554782469;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\add.html";i:1554795688;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554785670;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554782469;}*/ ?>
 <!doctype html>
 <html class="no-js" lang="">
 <head>
@@ -7,15 +7,15 @@
     <title>北大软微日程管理系统</title>
     <meta name="description" content="北大软微日程管理系统">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/normalize.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/font-awesome.min.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/themify-icons.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/pe-icon-7-filled.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/flag-icon.min.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/cs-skin-elastic.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/lib/datatable/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar/public/static//assets/css/style.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/normalize.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/themify-icons.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/pe-icon-7-filled.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/flag-icon.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/cs-skin-elastic.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/lib/datatable/dataTables.bootstrap.min.css">
+    <link rel="stylesheet" href="http://127.0.0.1/ss_calendar_git/public/static/assets/css/style.css">
 
 </head>
 <body>
@@ -102,8 +102,8 @@
         <header id="header" class="header">
     <div class="top-left">
         <div class="navbar-header">
-            <a class="navbar-brand" href="../index/index.html"><img src="http://127.0.0.1/ss_calendar/public/static//images/logo.png" alt="Logo"></a>
-            <a class="navbar-brand hidden" href="../index/index.html"><img src="http://127.0.0.1/ss_calendar/public/static//images/logo2.png" alt="Logo"></a>
+            <a class="navbar-brand" href="../index/index.html"><img src="http://127.0.0.1/ss_calendar_git/public/static/images/logo.png" alt="Logo"></a>
+            <a class="navbar-brand hidden" href="../index/index.html"><img src="http://127.0.0.1/ss_calendar_git/public/static/images/logo2.png" alt="Logo"></a>
             <a id="menuToggle" class="menutoggle"><i class="fa fa-bars"></i></a>
         </div>
     </div>
@@ -122,7 +122,7 @@
 
             <div class="user-area dropdown float-right">
                 <a href="#" class="dropdown-toggle active" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    <img class="user-avatar rounded-circle" src="http://127.0.0.1/ss_calendar/public/static//images/admin.jpg" alt="User Avatar">
+                    <img class="user-avatar rounded-circle" src="http://127.0.0.1/ss_calendar_git/public/static/images/admin.jpg" alt="User Avatar">
                 </a>
 
                 <div class="user-menu dropdown-menu">
@@ -194,21 +194,21 @@
     <!-- /#right-panel -->
 
     <!-- Scripts -->
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/vendor/jquery-2.1.4.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/popper.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/jquery.matchHeight.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/bootstrap.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/main.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/datatables.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/dataTables.buttons.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/jszip.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/vfs_fonts.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/buttons.html5.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/buttons.print.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/lib/data-table/buttons.colVis.min.js"></script>
-    <script src="http://127.0.0.1/ss_calendar/public/static//assets/js/init/datatables-init.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/vendor/jquery-2.1.4.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/jquery.matchHeight.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/main.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/datatables.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/dataTables.bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/dataTables.buttons.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/buttons.bootstrap.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/jszip.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/vfs_fonts.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/buttons.html5.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/buttons.print.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/lib/data-table/buttons.colVis.min.js"></script>
+    <script src="http://127.0.0.1/ss_calendar_git/public/static/assets/js/init/datatables-init.js"></script>
 
 </body>
 </html>

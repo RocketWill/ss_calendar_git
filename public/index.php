@@ -15,7 +15,7 @@
 define('APP_PATH', __DIR__ . '/../application/');
 
 // 定义静态文件加载路径
-define('SITE_URL', 'http://127.0.0.1/ss_calendar');
+define('SITE_URL', 'http://127.0.0.1/ss_calendar_git');
 
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';

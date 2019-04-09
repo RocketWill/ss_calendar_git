@@ -5,5 +5,5 @@ use think\Db;
 
 class ManageInfo extends Model
 {
-  
+  protected $autoWriteTimestamp = true;
 }
