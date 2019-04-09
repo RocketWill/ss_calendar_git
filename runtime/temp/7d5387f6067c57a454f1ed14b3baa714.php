@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html";i:1554809138;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554785670;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554782469;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html";i:1554809138;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554814962;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554782469;}*/ ?>
 <!doctype html>
 <html class="no-js" lang="">
 <head>
@@ -75,10 +75,10 @@
                     <a href="<?php echo url('admin/lst'); ?>"> <i class="menu-icon fa fa-group"></i>基础管理 </a>
                 </li>
                  <li class="menu-item-has-children">
-                    <a href="#"> <i class="menu-icon fa fa-credit-card"></i>角色管理 </a>
+                    <a href="<?php echo url('auth_group/lst'); ?>"> <i class="menu-icon fa fa-credit-card"></i>角色管理 </a>
                 </li>
                  <li class="menu-item-has-children">
-                    <a href="#"> <i class="menu-icon fa fa-sitemap"></i>权限管理 </a>
+                    <a href="<?php echo url('auth_rule/lst'); ?>"> <i class="menu-icon fa fa-sitemap"></i>权限管理 </a>
                 </li>
 
                 <li class="menu-title">日志管理</li><!-- /.menu-title -->
