@@ -3322,3 +3322,3860 @@ e
 [ info ] [ PARAM ] array (
 )
 [ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.580830s] [吞吐率：1.72req/s] [内存消耗：2,719.84kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/add.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001637s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.019401s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000624s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:34:49+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.211062s] [吞吐率：4.74req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:49+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.198384s] [吞吐率：5.04req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:49+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.240980s] [吞吐率：4.15req/s] [内存消耗：1,174.23kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:50+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.186048s] [吞吐率：5.37req/s] [内存消耗：1,666.69kb] [文件加载：42]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:50+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.065479s] [吞吐率：15.27req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:50+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.081125s] [吞吐率：12.33req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:34:51+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.084906s] [吞吐率：11.78req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:37:54+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.073123s] [吞吐率：13.68req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:37:54+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.070197s] [吞吐率：14.25req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:37:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.079592s] [吞吐率：12.56req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:37:56+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.195562s] [吞吐率：5.11req/s] [内存消耗：2,447.94kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'id',
+  1 => 'username',
+  2 => 'password',
+  3 => 'telephone',
+  4 => 'is_delete',
+  5 => 'create_time',
+  6 => 'update_time',
+  7 => 'delete_time',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001087s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.020429s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000752s ]
+[ error ] [8]未定义变量: admin[C:\phpstudy\WWW\ss_calendar_git\runtime\temp\8bf1a2fd01aa950281a8bdf857371156.php:150]
+---------------------------------------------------------------
+[ 2019-04-09T19:38:54+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.089970s] [吞吐率：11.11req/s] [内存消耗：2,267.13kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001000s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.017014s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000623s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:38:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.060888s] [吞吐率：16.42req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:38:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.064345s] [吞吐率：15.54req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:38:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.059025s] [吞吐率：16.94req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:38:59+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.054132s] [吞吐率：18.47req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:38:59+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.057940s] [吞吐率：17.26req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:38:59+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.106773s] [吞吐率：9.37req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:00+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.103869s] [吞吐率：9.63req/s] [内存消耗：2,267.07kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.020748s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000522s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:39:00+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.051103s] [吞吐率：19.57req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:00+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.080334s] [吞吐率：12.45req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:00+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.110839s] [吞吐率：9.02req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.058674s] [吞吐率：17.04req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.052873s] [吞吐率：18.91req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.093422s] [吞吐率：10.70req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:07+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/3.html
+[运行时间：0.100080s] [吞吐率：9.99req/s] [内存消耗：2,267.07kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000999s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.022859s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000523s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:39:08+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.054131s] [吞吐率：18.47req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:08+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.051089s] [吞吐率：19.57req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:08+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.121125s] [吞吐率：8.26req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:30+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/3.html
+[运行时间：0.146568s] [吞吐率：6.82req/s] [内存消耗：2,421.30kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011591s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.029557s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000566s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:39:31+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.059378s] [吞吐率：16.84req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:31+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.068401s] [吞吐率：14.62req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:39:31+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.093566s] [吞吐率：10.69req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:50:47+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/3.html
+[运行时间：0.534461s] [吞吐率：1.87req/s] [内存消耗：2,428.66kb] [文件加载：47]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001806s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018828s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.001482s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:50:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.089289s] [吞吐率：11.20req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:50:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.205484s] [吞吐率：4.87req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:50:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.076461s] [吞吐率：13.08req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:50:52+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/3.html
+[运行时间：0.192910s] [吞吐率：5.18req/s] [内存消耗：2,528.94kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '452',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundary3rARGrh7bjjAK0hA',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/3.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Steven Chan',
+  'admin_phone' => '11111111112',
+  'admin_password' => '',
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.019320s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000614s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Steven Chan',`password`='e10adc3949ba59abbe56e057f20f883e',`telephone`='11111111111'  WHERE  `id` = 3 [ RunTime:0.011208s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:50:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.177683s] [吞吐率：5.63req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/3.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001188s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018251s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:50:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.062413s] [吞吐率：16.02req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:50:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.069892s] [吞吐率：14.31req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:50:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.062891s] [吞吐率：15.90req/s] [内存消耗：1,174.34kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:24+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.128482s] [吞吐率：7.78req/s] [内存消耗：2,274.18kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000911s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.023572s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000721s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:24+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.058221s] [吞吐率：17.18req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:24+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.086142s] [吞吐率：11.61req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:24+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.117402s] [吞吐率：8.52req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:29+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.139375s] [吞吐率：7.17req/s] [内存消耗：2,528.92kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '449',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryOTgTgHy0MFDTjZCP',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Jennifer',
+  'admin_phone' => '11111111111',
+  'admin_password' => '',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.031284s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000742s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Jennifer',`password`='e10adc3949ba59abbe56e057f20f883e',`telephone`='11111111111'  WHERE  `id` = 2 [ RunTime:0.006432s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.129050s] [吞吐率：7.75req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001161s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.021988s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000518s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.050339s] [吞吐率：19.87req/s] [内存消耗：1,174.34kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.079409s] [吞吐率：12.59req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.098342s] [吞吐率：10.17req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:37+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.106062s] [吞吐率：9.43req/s] [内存消耗：2,274.16kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000860s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.020902s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000921s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:38+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.044084s] [吞吐率：22.68req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:38+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.112121s] [吞吐率：8.92req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:38+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.077026s] [吞吐率：12.98req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:42+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.111373s] [吞吐率：8.98req/s] [内存消耗：2,528.90kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '449',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryzATLLDcPcEqvBHhB',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Jennifer',
+  'admin_phone' => '22222222222',
+  'admin_password' => '',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000848s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018143s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000533s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Jennifer',`password`='e10adc3949ba59abbe56e057f20f883e',`telephone`='11111111111'  WHERE  `id` = 2 [ RunTime:0.007729s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.119128s] [吞吐率：8.39req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011543s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.031122s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.078171s] [吞吐率：12.79req/s] [内存消耗：1,174.34kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.090839s] [吞吐率：11.01req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.102715s] [吞吐率：9.74req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:51+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.119148s] [吞吐率：8.39req/s] [内存消耗：2,274.16kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.023858s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000573s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:51:51+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.055843s] [吞吐率：17.91req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:52+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.086580s] [吞吐率：11.55req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:51:52+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.097746s] [吞吐率：10.23req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:52:48+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.108392s] [吞吐率：9.23req/s] [内存消耗：2,528.87kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '455',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryEEioAoVdRdp0aVQg',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Jennifer',
+  'admin_phone' => '11111111111',
+  'admin_password' => '555555',
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.020613s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000674s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Jennifer',`password`='e10adc3949ba59abbe56e057f20f883e',`telephone`='11111111111'  WHERE  `id` = 2 [ RunTime:0.006043s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:52:52+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.095842s] [吞吐率：10.43req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018664s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:52:53+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.062462s] [吞吐率：16.01req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:52:53+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.074789s] [吞吐率：13.37req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:52:53+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.066174s] [吞吐率：15.11req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:47+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.102017s] [吞吐率：9.80req/s] [内存消耗：2,274.07kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000992s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.020477s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001188s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:53:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.065974s] [吞吐率：15.16req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.096037s] [吞吐率：10.41req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.090761s] [吞吐率：11.02req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:53+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.114483s] [吞吐率：8.73req/s] [内存消耗：2,528.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '445',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryLg4OqBSCgDlX2cpo',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Will',
+  'admin_phone' => '22222222222',
+  'admin_password' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001010s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.024385s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000961s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Will',`password`='e10adc3949ba59abbe56e057f20f883e',`telephone`='11111111111'  WHERE  `id` = 1 [ RunTime:0.008665s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.110996s] [吞吐率：9.01req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011088s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.022069s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000488s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.049934s] [吞吐率：20.03req/s] [内存消耗：1,174.34kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.069554s] [吞吐率：14.38req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:55+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.093590s] [吞吐率：10.68req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.135038s] [吞吐率：7.41req/s] [内存消耗：2,274.07kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002916s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.033403s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:53:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.052459s] [吞吐率：19.06req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.108610s] [吞吐率：9.21req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:53:57+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.113084s] [吞吐率：8.84req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:38+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.092748s] [吞吐率：10.78req/s] [内存消耗：2,274.25kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001092s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.019262s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000757s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:54:39+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.055081s] [吞吐率：18.16req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:39+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.090986s] [吞吐率：10.99req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:39+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.114789s] [吞吐率：8.71req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:43+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.125931s] [吞吐率：7.94req/s] [内存消耗：2,528.63kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '445',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryeQQgBO7Z52oAQixI',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Will',
+  'admin_phone' => '22222222222',
+  'admin_password' => '',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000885s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.026557s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000733s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Will',`password`='e10adc3949ba59abbe56e057f20f883e',`telephone`='22222222222'  WHERE  `id` = 1 [ RunTime:0.008874s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:54:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.103521s] [吞吐率：9.66req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001026s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.026903s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000689s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000486s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:54:47+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.057280s] [吞吐率：17.46req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:47+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.079198s] [吞吐率：12.63req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:47+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.104307s] [吞吐率：9.59req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:48+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.108717s] [吞吐率：9.20req/s] [内存消耗：2,274.07kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000769s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018735s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000658s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:54:49+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.047353s] [吞吐率：21.12req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:49+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.092977s] [吞吐率：10.76req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:54:49+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.076533s] [吞吐率：13.07req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:55:10+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.121481s] [吞吐率：8.23req/s] [内存消耗：2,528.66kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '451',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryR4EGjAu4Ls7Acmub',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Will',
+  'admin_phone' => '22222222222',
+  'admin_password' => '567890',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010962s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.019791s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000647s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Will',`password`='ba00819f263287af1ff0100c5a323355',`telephone`='22222222222'  WHERE  `id` = 1 [ RunTime:0.007746s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:55:14+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.104217s] [吞吐率：9.60req/s] [内存消耗：2,727.69kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.020542s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000508s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000607s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:55:14+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.051689s] [吞吐率：19.35req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:55:15+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.065878s] [吞吐率：15.18req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:55:15+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.066645s] [吞吐率：15.00req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:56:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.122897s] [吞吐率：8.14req/s] [内存消耗：2,274.46kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011676s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.022993s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000742s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:56:07+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.044903s] [吞吐率：22.27req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:56:07+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.067044s] [吞吐率：14.92req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:56:07+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.086576s] [吞吐率：11.55req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:56:12+08:00 ] 127.0.0.1 POST 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html
+[运行时间：0.123212s] [吞吐率：8.12req/s] [内存消耗：2,530.07kb] [文件加载：50]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'content-length' => '451',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://127.0.0.1',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'multipart/form-data; boundary=----WebKitFormBoundaryfuRidGvW8JWUwBfE',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'admin_name' => 'Will',
+  'admin_phone' => '33333333333',
+  'admin_password' => '567890',
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000865s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018670s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000595s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `username`='Will',`update_time`='2019-04-09 19:56:12',`password`='ba00819f263287af1ff0100c5a323355',`telephone`='33333333333'  WHERE  `id` = 1 [ RunTime:0.007648s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:56:16+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.102179s] [吞吐率：9.79req/s] [内存消耗：2,728.18kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000964s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.023311s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000484s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:56:16+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.074654s] [吞吐率：13.40req/s] [内存消耗：1,174.34kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:56:16+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.082950s] [吞吐率：12.06req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:56:16+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.094710s] [吞吐率：10.56req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:57:38+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.129886s] [吞吐率：7.70req/s] [内存消耗：2,728.75kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012797s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.024891s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000465s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000591s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:57:39+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.051153s] [吞吐率：19.55req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:57:39+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.084554s] [吞吐率：11.83req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:57:39+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.092081s] [吞吐率：10.86req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:57:41+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/del/id/1.html
+[运行时间：0.144756s] [吞吐率：6.91req/s] [内存消耗：2,338.78kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->del[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000796s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018362s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000638s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `is_delete`=1,`delete_time`='2019-04-09 19:57:41'  WHERE  `id` = 1 [ RunTime:0.006832s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:57:45+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.134557s] [吞吐率：7.43req/s] [内存消耗：2,728.48kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/del/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010891s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018928s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000534s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000533s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:57:45+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.045705s] [吞吐率：21.88req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:57:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.076692s] [吞吐率：13.04req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:57:46+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.096167s] [吞吐率：10.40req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:02+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/recover/id/1.html
+[运行时间：0.107533s] [吞吐率：9.30req/s] [内存消耗：2,337.84kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'recover',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->recover[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000727s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.017756s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001207s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `is_delete`=0  WHERE  `id` = 1 [ RunTime:0.006801s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:05+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.094827s] [吞吐率：10.55req/s] [内存消耗：2,728.48kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/recover/id/1.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000968s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018348s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000489s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000509s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.050743s] [吞吐率：19.71req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.063778s] [吞吐率：15.68req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:06+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.068943s] [吞吐率：14.50req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:18+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/del/id/3.html
+[运行时间：0.103545s] [吞吐率：9.66req/s] [内存消耗：2,338.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'del',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->del[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000925s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.019394s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000665s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `is_delete`=1,`delete_time`='2019-04-09 19:58:18'  WHERE  `id` = 3 [ RunTime:0.004218s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:21+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.112722s] [吞吐率：8.87req/s] [内存消耗：2,728.48kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/del/id/3.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010222s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.023918s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000511s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:22+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.048431s] [吞吐率：20.65req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:22+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.076027s] [吞吐率：13.15req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:22+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.086981s] [吞吐率：11.50req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:28+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/recover/id/3.html
+[运行时间：0.115446s] [吞吐率：8.66req/s] [内存消耗：2,337.89kb] [文件加载：48]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'recover',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->recover[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ CACHE ] INIT File
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\tpl\dispatch_jump.tpl [ array (
+  0 => 'code',
+  1 => 'msg',
+  2 => 'data',
+  3 => 'url',
+  4 => 'wait',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000876s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018227s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000479s ]
+[ sql ] [ SQL ] UPDATE `manage_info`  SET `is_delete`=0  WHERE  `id` = 3 [ RunTime:0.004472s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:32+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html
+[运行时间：0.098099s] [吞吐率：10.19req/s] [内存消耗：2,728.48kb] [文件加载：51]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'lst',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/recover/id/3.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Admin->lst[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html [ array (
+  0 => 'admin_list',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.018426s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `manage_info` LIMIT 1 [ RunTime:0.000481s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` LIMIT 0,10 [ RunTime:0.000583s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.045653s] [吞吐率：21.90req/s] [内存消耗：1,174.30kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.071461s] [吞吐率：13.99req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:33+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.076002s] [吞吐率：13.16req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:35+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/index.php/admin/admin/edit/id/2.html
+[运行时间：0.101862s] [吞吐率：9.82req/s] [内存消耗：2,274.95kb] [文件加载：45]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'edit',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'referer' => 'http://127.0.0.1/ss_calendar_git/public/index.php/admin/admin/lst.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+  'cookie' => 'thinkphp_show_page_trace=0|0; thinkphp_show_page_trace=0|0',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+)
+[ info ] [ RUN ] app\admin\controller\Admin->edit[ C:\phpstudy\WWW\ss_calendar_git\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\edit.html [ array (
+  0 => 'admin',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001014s ] mysql:host=127.0.0.1;dbname=daily_manage;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `manage_info` [ RunTime:0.027314s ]
+[ sql ] [ SQL ] SELECT * FROM `manage_info` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000561s ]
+---------------------------------------------------------------
+[ 2019-04-09T19:58:35+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/css/bootstrap.min.css.map
+[运行时间：0.043087s] [吞吐率：23.21req/s] [内存消耗：1,174.34kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'css',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:36+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/popper.min.js.map
+[运行时间：0.085162s] [吞吐率：11.74req/s] [内存消耗：1,174.24kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2019-04-09T19:58:36+08:00 ] 127.0.0.1 GET 127.0.0.1/ss_calendar_git/public/static/assets/js/bootstrap.min.js.map
+[运行时间：0.080642s] [吞吐率：12.40req/s] [内存消耗：1,174.27kb] [文件加载：33]
+[ info ] [ LANG ] C:\phpstudy\WWW\ss_calendar_git\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'assets',
+    2 => 'js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.86 Safari/537.36',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'en-US,en;q=0.9,zh-TW;q=0.8,zh;q=0.7',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File

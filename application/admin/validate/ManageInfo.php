@@ -11,7 +11,7 @@ class ManageInfo extends Validate
 
     protected $message = [
       'username.require' => '必須輸入管理員名稱',
-      'username.max' => '管理員名稱自冠不得超過25個字符',
+      'username.max' => '管理員名稱不得超過25個字符',
       'password.require' => '必須輸入管理員密碼',
       'telephone.require' => '請輸入手機號碼',
       'telephone.max' => '手機號碼最多不能超過11個字節',
@@ -21,6 +21,6 @@ class ManageInfo extends Validate
 
     protected $scene = [
       'add' => ['username' => 'require', 'password' => 'require', 'telephone'],
-      'edit' => ['username' => 'require', 'telephone']
+      'edit' => ['username' => 'require',]
     ];
 }

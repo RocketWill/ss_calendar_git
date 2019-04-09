@@ -44,6 +44,45 @@ class Admin extends Controller
 
   // edit admin info
   public function edit(){
+    if (request() -> isPost()){
+      $id = input('id');
+      $admin = db('manage_info') -> find($id);
+
+      $data = [
+        'id' => input('id'),
+        'username' => input('admin_name'),
+        'update_time' => date('Y-m-d H:i:s')
+      ];
+      if(input('admin_password')){
+          $data['password'] = md5(input('admin_password'));
+      }else{
+          $data['password'] = $admin['password'];
+      }
+
+      if(input('admin_phone')){
+          $data['telephone'] = input('admin_phone');
+      }else{
+          $data['telephone'] = $admin['telephone'];
+      }
+
+      $validate = \think\Loader::validate('ManageInfo');
+        if (!$validate -> scene('edit') -> check($data)){
+          $this -> error($validate -> getError()); die;
+      }
+
+      $save = db('manage_info') -> update($data);
+        if($save !== false){
+          $this->success('修改成功', 'lst');
+        }else{
+          $this->error('修改失敗');
+        }
+
+      return;
+    }
+
+    $id = input('id');
+    $admin = db('manage_info') -> find($id);
+    $this -> assign('admin', $admin);
     return $this -> fetch('edit');
   }
 
@@ -51,9 +90,10 @@ class Admin extends Controller
   public function del(){
     $id = input('id');
     $admin = db('manage_info') -> find($id);
+
     if($admin['is_delete'] == 0){
       // 更新数据表中的数据
-      if (db('manage_info')->where('id',$id)->update(['is_delete' => 1])){
+      if (db('manage_info')->where('id',$id)->update(['is_delete' => 1, 'delete_time' => date('Y-m-d H:i:s')])){
         $this -> success('刪除成功', 'lst');
       }else{
         $this -> error('刪除失敗', 'lst');

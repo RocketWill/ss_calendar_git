@@ -38,12 +38,12 @@
 
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label class=" form-control-label" for="admin_name">管理員名稱</label></div>
-                                        <div class="col-12 col-md-9"><input name="admin_name" class="form-control" id="admin_name" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
+                                        <div class="col-12 col-md-9"><input name="admin_name" class="form-control" id="admin_name" type="text" placeholder="" value="{$admin.username}"><small class="form-text text-muted">*必填</small></div>
                                     </div>
 
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label class=" form-control-label" for="admin_phone">管理員手機</label></div>
-                                        <div class="col-12 col-md-9"><input name="admin_phone" class="form-control" id="admin_phone" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
+                                        <div class="col-12 col-md-9"><input name="admin_phone" class="form-control" id="admin_phone" type="text" placeholder="" value="{$admin.telephone}"><small class="form-text text-muted">*必填</small></div>
                                     </div>
 
                                     <div class="row form-group">
@@ -51,8 +51,10 @@
                                         <div class="col-12 col-md-9"><input name="admin_password" class="form-control" id="admin_password" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
                                     </div>
 
+                                    <input type="hidden" name="id" value="{$admin.id}">
+
                                     <button class="btn btn-primary btn-sm" type="submit">
-                                        <i class="fa fa-dot-circle-o"></i> 確認創建
+                                        <i class="fa fa-dot-circle-o"></i> 確認修改
                                     </button>
 
                                 </form>
