@@ -1,11 +1,11 @@
 <?php
 namespace app\admin\model;
 use think\Model;
-class AuthGroup extends Model
+class ManageAuthGroup extends Model
 {
-    
 
-    
+
+
 
 
 

@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html";i:1554809138;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554814962;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554782469;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\lst.html";i:1554809138;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554814962;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554823473;}*/ ?>
 <!doctype html>
 <html class="no-js" lang="">
 <head>

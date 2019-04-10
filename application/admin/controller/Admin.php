@@ -9,7 +9,7 @@ class Admin extends Controller
   public function lst(){
     // get all admin
     // show 10 admins per page
-    $admin_list = ManageInfoModel::paginate(10);
+    $admin_list = ManageInfoModel::paginate(100);
     $this -> assign('admin_list', $admin_list);
     return $this -> fetch('lst');
   }
@@ -32,13 +32,26 @@ class Admin extends Controller
       }
 
       if(db('manage_info') -> insert($data)){
-        return $this->success('添加管理員成功', 'lst');
+        //insert into group access
+        $current_user = db('manage_info') -> where('username',input('admin_name')) -> find();
+        $add_grp_acc = db('manage_auth_group_access') -> insert(['uid' => $current_user['id'], 'group_id' => input('group_id')]);
+        if($add_grp_acc){
+          return $this->success('添加管理員成功', 'lst');
+        }else{
+          return $this->error('添加管理員失敗');
+        }
       }else{
         return $this->error('添加管理員失敗');
       }
+
+
+
+
       return;
 
     }
+    $auth_group_list = db('manage_auth_group') -> select();
+    $this -> assign('auth_group_list', $auth_group_list);
     return $this -> fetch('add');
   }
 
@@ -72,6 +85,14 @@ class Admin extends Controller
 
       $save = db('manage_info') -> update($data);
         if($save !== false){
+          //insert into group access
+          //dump(['uid' => input('id'), 'group_id' => input('group_id')]); die;
+          $add_grp_acc = db('manage_auth_group_access') -> where(array('uid' => input('id'))) -> update(['group_id' => input('group_id')]);
+          if($add_grp_acc !== false){
+            return $this->success('編輯管理員成功', 'lst');
+          }else{
+            return $this->error('編輯管理員失敗');
+          }
           $this->success('修改成功', 'lst');
         }else{
           $this->error('修改失敗');
@@ -83,6 +104,11 @@ class Admin extends Controller
     $id = input('id');
     $admin = db('manage_info') -> find($id);
     $this -> assign('admin', $admin);
+    $auth_group_list = db('manage_auth_group') -> select();
+    $this -> assign('auth_group_list', $auth_group_list);
+    //query group access
+    $auth_grp_access = db('manage_auth_group_access') -> where(array('uid' => $id)) -> find();
+    $this -> assign('group_id', $auth_grp_access['group_id']);
     return $this -> fetch('edit');
   }
 

@@ -1,9 +1,9 @@
 <?php
 namespace app\admin\model;
 use think\Model;
-class AuthRule extends Model
+class ManageAuthRule extends Model
 {
-    
+
 	public function authRuleTree(){
         $authRuleres=$this->order('sort desc')->select();
         return $this->sort($authRuleres);
@@ -20,7 +20,7 @@ class AuthRule extends Model
         }
         return $arr;
     }
-    
+
 
     public function getchilrenid($authRuleId){
         $AuthRuleRes=$this->select();

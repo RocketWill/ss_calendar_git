@@ -1,4 +1,4 @@
-<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\add.html";i:1554795688;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554785670;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554782469;}*/ ?>
+<?php if (!defined('THINK_PATH')) exit(); /*a:4:{s:79:"C:\phpstudy\WWW\ss_calendar_git\public/../application/admin\view\admin\add.html";i:1554900448;s:74:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\sidebar.html";i:1554814962;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\header.html";i:1554782360;s:73:"C:\phpstudy\WWW\ss_calendar_git\application\admin\view\common\footer.html";i:1554823473;}*/ ?>
 <!doctype html>
 <html class="no-js" lang="">
 <head>
@@ -75,10 +75,10 @@
                     <a href="<?php echo url('admin/lst'); ?>"> <i class="menu-icon fa fa-group"></i>基础管理 </a>
                 </li>
                  <li class="menu-item-has-children">
-                    <a href="#"> <i class="menu-icon fa fa-credit-card"></i>角色管理 </a>
+                    <a href="<?php echo url('auth_group/lst'); ?>"> <i class="menu-icon fa fa-credit-card"></i>角色管理 </a>
                 </li>
                  <li class="menu-item-has-children">
-                    <a href="#"> <i class="menu-icon fa fa-sitemap"></i>权限管理 </a>
+                    <a href="<?php echo url('auth_rule/lst'); ?>"> <i class="menu-icon fa fa-sitemap"></i>权限管理 </a>
                 </li>
 
                 <li class="menu-title">日志管理</li><!-- /.menu-title -->
@@ -148,6 +148,17 @@
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label class=" form-control-label" for="admin_name">管理員名稱</label></div>
                                         <div class="col-12 col-md-9"><input name="admin_name" class="form-control" id="admin_name" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
+                                    </div>
+
+                                    <div class="row form-group">
+                                        <div class="col col-md-3"><label class=" form-control-label" for="admin_name">所屬用戶組</label></div>
+                                        <div class="col-12 col-md-9">
+                                          <select class="form-control" name="group_id">
+                                            <?php if(is_array($auth_group_list) || $auth_group_list instanceof \think\Collection || $auth_group_list instanceof \think\Paginator): $i = 0; $__LIST__ = $auth_group_list;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$auth_group): $mod = ($i % 2 );++$i;?>
+                                            <option value="<?php echo $auth_group['id']; ?>"><?php echo $auth_group['title']; ?></option>
+                                            <?php endforeach; endif; else: echo "" ;endif; ?>
+                                          </select>
+                                        </div>
                                     </div>
 
                                     <div class="row form-group">

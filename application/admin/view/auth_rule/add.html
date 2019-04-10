@@ -38,17 +38,26 @@
 
                                     <div class="row form-group">
                                         <div class="col col-md-3"><label class=" form-control-label" for="admin_name">上級權限</label></div>
-                                        <div class="col-12 col-md-9"><input name="admin_name" class="form-control" id="admin_name" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
+                                        <div class="col-12 col-md-9">
+                                          <select class="form-control" name="pid">
+                                            <option value="0">頂級權限</option>
+                                            {volist name="auth_rule_list" id="auth_rule"}
+                                            <option value="{$auth_rule.id}"><?php if($auth_rule['level'] != 0){echo '|';} echo str_repeat('—', $auth_rule['level']*3)?>{$auth_rule.title}</option>
+                                            {/volist}
+                                          </select>
+                                          <small class="form-text text-muted">*必填</small>
+                                        </div>
+
                                     </div>
 
                                     <div class="row form-group">
-                                        <div class="col col-md-3"><label class=" form-control-label" for="admin_phone">權限名稱</label></div>
-                                        <div class="col-12 col-md-9"><input name="admin_phone" class="form-control" id="admin_phone" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
+                                        <div class="col col-md-3"><label class=" form-control-label" for="title">權限名稱</label></div>
+                                        <div class="col-12 col-md-9"><input name="title" class="form-control" id="titlr" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
                                     </div>
 
                                     <div class="row form-group">
-                                        <div class="col col-md-3"><label class=" form-control-label" for="admin_password">控 / 方</label></div>
-                                        <div class="col-12 col-md-9"><input name="admin_password" class="form-control" id="admin_password" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
+                                        <div class="col col-md-3"><label class=" form-control-label" for="name">控制器 / 方法</label></div>
+                                        <div class="col-12 col-md-9"><input name="name" class="form-control" id="name" type="text" placeholder=""><small class="form-text text-muted">*必填</small></div>
                                     </div>
 
                                     <button class="btn btn-primary btn-sm" type="submit">
