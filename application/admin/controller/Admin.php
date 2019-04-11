@@ -2,18 +2,34 @@
 namespace app\admin\controller;
 use think\Controller;
 use app\admin\model\ManageInfo as ManageInfoModel;
+use think\Config;
+use \think\Request;
+//use think\console\command\optimize\Config;
 //use app\admin\controller\Base;
 class Admin extends Controller
 {
   // admins list
-  public function lst(){
+  public function lst(){  
     // get all admin
     // show 10 admins per page
+    //$admin_list = ManageInfoModel::paginate(100);
+
     $admin_list = ManageInfoModel::paginate(100);
-    $this -> assign('admin_list', $admin_list);
+    if(input('?get.status')){
+      $status = Request::instance()->param('status');
+      //dump($status); die;
+      if ((int)$status >= 0){
+        $admin_list = db('manage_info')->where('is_delete',$status)->select();
+        $resp['current_status'] = (int)$status;
+      }
+    }else{
+      $resp['current_status'] = -1;
+    }
+    $resp['admin_list'] = $admin_list;
+    $resp['status_list'] = Config::get('STATUS');
+    $this -> assign('resp', $resp);
     return $this -> fetch('lst');
   }
-
   // add an admin member
   public function add(){
     // check method is Post
@@ -22,6 +38,7 @@ class Admin extends Controller
         'username' => input('admin_name'),
         'telephone' => input('admin_phone'),
         'password' => md5(input("admin_password")),
+        'is_delete' => 0,
         'update_time' => date('Y-m-d H:i:s')
       ];
 

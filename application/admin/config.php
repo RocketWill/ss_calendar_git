@@ -13,4 +13,6 @@ return [
     'view_replace_str' => [
       '__PUBLIC__' => SITE_URL.'/public/static',
     ],
+    //數據狀態
+    'STATUS' => array(array('status'=> '正常', 'value' => 0),array('status'=> '已刪除', 'value' => 1))
 ];
