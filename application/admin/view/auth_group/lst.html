@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="__PUBLIC__/assets/css/style.css">
     <link rel="stylesheet" href="__PUBLIC__/assets/css/admin/style.css">
     <link rel="stylesheet" href="__PUBLIC__/assets/css/lib/datatable/dataTables.bootstrap.min.css">
-    <link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="__PUBLIC__/assets/css/bootstrap.min.css">
 </head>
 <body>
@@ -31,6 +30,13 @@
         <div class="content">
           <div class="col-lg-4 mb-3">
             <button class="btn btn-primary" type="button"><a href="{:url('auth_group/add')}" style="color:#fff;"><i class="fa fa-plus"></i>&nbsp; 添加用戶組</a></button>
+            <form action="" class="wrap-filter">
+                    <select name="status" class="form-control ml-2" id='status'>
+                        <option value="-1">請選擇狀態</option>
+                        {volist name="$resp.status_list" id='status'}
+                        <option value="{$status.value}" 
+                            selected >{$status.status} </option> {/volist} </select> 
+                        </form> 
           </div>
           <div class="col-lg-12">
                           <div class="card">
@@ -49,7 +55,7 @@
                                     </thead>
                                     <tbody>
 
-                                      {volist name="auth_group_list" id='auth_group'}
+                                      {volist name="resp['auth_group_list']" id='auth_group'}
                                       <tr>
                                           <th scope="row">{$auth_group.id}</th>
                                           <td>{$auth_group.title}</td>
@@ -71,7 +77,7 @@
                       </div>
                   </div>
             <div class="col-lg-4 mb-3">
-              {$auth_group_list -> render()}
+              {$resp.auth_group_list -> render()}
             </div>
         </div>
         <!-- /.content -->

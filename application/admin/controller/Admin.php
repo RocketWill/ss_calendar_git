@@ -13,17 +13,15 @@ class Admin extends Controller
     // get all admin
     // show 10 admins per page
     //$admin_list = ManageInfoModel::paginate(100);
-
-    $admin_list = ManageInfoModel::paginate(100);
+    $resp['current_status'] = -1;
+    $admin_list = ManageInfoModel::paginate(10);
     if(input('?get.status')){
       $status = Request::instance()->param('status');
       //dump($status); die;
       if ((int)$status >= 0){
-        $admin_list = db('manage_info')->where('is_delete',$status)->select();
+        $admin_list = ManageInfoModel::where('is_delete',$status) -> paginate(10);
         $resp['current_status'] = (int)$status;
       }
-    }else{
-      $resp['current_status'] = -1;
     }
     $resp['admin_list'] = $admin_list;
     $resp['status_list'] = Config::get('STATUS');
@@ -32,12 +30,14 @@ class Admin extends Controller
   }
   // add an admin member
   public function add(){
+    date_default_timezone_set("Asia/Shanghai");
+    // dump(date_default_timezone_get()); die;
     // check method is Post
     if (request() -> isPost()){
       $data = [
         'username' => input('admin_name'),
         'telephone' => input('admin_phone'),
-        'password' => md5(input("admin_password")),
+        'password' => input("admin_password"),
         'is_delete' => 0,
         'update_time' => date('Y-m-d H:i:s')
       ];
@@ -46,6 +46,9 @@ class Admin extends Controller
       if(!$validate -> scene('add') -> check($data)){
         $this -> error($validate -> getError());
         die;
+      }else{
+        // 加密管理員帳號
+        $data['password'] = md5($data['password']);
       }
 
       if(db('manage_info') -> insert($data)){

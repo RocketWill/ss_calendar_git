@@ -2,12 +2,14 @@
 namespace app\admin\controller;
 use app\admin\model\ManageAuthGroup as ManageAuthGroupModel;
 use think\Controller;
+use think\Config;
 
 class AuthGroup extends Controller
 {
     public function lst(){
-        $auth_group_list = ManageAuthGroupModel::paginate(5);
-        $this -> assign('auth_group_list', $auth_group_list);
+        $resp['auth_group_list'] =  ManageAuthGroupModel::paginate(5);
+        $resp['status_list'] = Config::get('STATUS');
+        $this -> assign('resp', $resp);
         return $this -> fetch('lst');
     }
 
